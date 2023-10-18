@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    gap: 10px 10px;
+    height: 100vh;
+    margin: 20px 20px 20px 20px;
+}
+
+.container div {
+    border-radius: 20px;
+}
+
+.stage0 {
+    background-color: grey;
+    grid-area: 1 / 1 / 1 / 1;
+    padding:10px 0px 10px 0px;
+}
+
+.stage1 {
+    background-color: grey;
+    grid-area: 1 / 2 / 2 / 3;
+    text-align: center;
+    padding:10px 0px 10px 0px;
+}
+
+.stage2 {
+    background-color: grey;
+    grid-area: 1 / 3 / 2 / 4;
+    text-align: center;
+    padding:10px 0px 10px 0px;
+}
+
+.stage3 {
+    background-color: grey;
+    grid-area: 1 / 4 / 2 / 5;
+    text-align: center;
+    padding:10px 0px 10px 0px;
+}
+
+.stage4 {
+    background-color: grey;
+    grid-area: 1 / 5 / 2 / 6;
+    text-align: center;
+    padding:10px 0px 10px 0px;
+}
+
+.stage5 {
+    background-color: grey;
+    grid-area: 1 / 6 / 2 / 7;
+    text-align: center;
+    padding:10px 0px 10px 0px;
+}
+
+.stage6 {
+    background-color: grey;
+    grid-area: 1 / 7 / 2 / 8;
+    text-align: center;
+    padding:10px 0px 10px 0px;
+}
+
+.stage7 {
+    background-color: grey;
+    grid-area: 1 / 8 / 2 / 9;
+    text-align: center;
+    padding:10px 0px 10px 0px;
+}
+
+.time1 {
+    background-color: grey;
+    grid-area: 2 / 1 / 3 / 2;
+    text-align: center;
+    padding:10px 0px 10px 0px;
+}
+
+.time2 {
+    background-color: grey;
+    grid-area: 3 / 1 / 4 / 2;
+    text-align: center;
+    padding:10px 0px 10px 0px;
+}
+
+.time3 {
+    background-color: grey;
+    grid-area: 4 / 1 / 5 / 2;
+    text-align: center;
+    padding:10px 0px 10px 0px;
+}
+
+.time4 {
+    background-color: grey;
+    grid-area: 5 / 1 / 6 / 2;
+    text-align: center;
+    padding:10px 0px 10px 0px;
+}
+
+.time5 {
+    background-color: grey;
+    grid-area: 6 / 1 / 7 / 2;
+    text-align: center;
+    padding:10px 0px 10px 0px;
+}
+
+.time6 {
+    background-color: grey;
+    grid-area: 7 / 1 / 8 / 2;
+    text-align: center;
+    padding:10px 0px 10px 0px;
+}
+
+.time7 {
+    background-color: grey;
+    grid-area: 8 / 1 / 9 / 2;
+    text-align: center;
+    padding:10px 0px 10px 0px;
+}
+
+.time8 {
+    background-color: grey;
+    grid-area: 9 / 1 / 10 / 2;
+    text-align: center;
+    padding:10px 0px 10px 0px;
+}
+
+.time9 {
+    background-color: grey;
+    grid-area: 10 / 1 / 11 / 2;
+    text-align: center;
+    padding:10px 0px 10px 0px;
+}
+
+.time10 {
+    background-color: grey;
+    grid-area: 11 / 1 / 12 / 2;
+    text-align: center;
+    padding:10px 0px 10px 0px;
+}
+
+.talk1 {
+    background-color: lightblue;
+    color: blue;
+    grid-area: 2 / 2 / 5 / 4;
+    padding: 15px 0px 0px 15px;
+}
+
+.talk23 {
+    background-color: lightblue;
+    color: blue;
+    grid-area: 6 / 2 / 8 / 5;
+    padding: 0px 0px 0px 15px;
+}
+
+.talk4 {
+    background-color: rgb(62, 150, 62);
+    color: rgb(2, 45, 2);
+    grid-area: 2 / 4 / 6 / 5;
+    padding:5px 0px 0px 5px;
+}
+.talk5 {
+    background-color: red;
+    grid-area: 2 / 5 / 3 / 7;
+    color: darkred;
+    padding:5px 0px 0px 5px;
+}
+
+.talk6 {
+    background-color: red;
+    grid-area: 4 / 5 / 8 / 7;
+    color: darkred;
+    padding:15px 0px 0px 15px;
+}
+
+.talk7 {
+    background-color: lightblue;
+    color: blue;
+    grid-area: 9 / 2 / 12 / 4;
+    padding: 5px 0px 0px 5px;
+}
+
+.talk8 {
+    background-color: rgb(62, 150, 62);
+    color: rgb(2, 45, 2);
+    grid-area: 9 / 4 / 12 / 7;
+    align-self: end;
+    height: 65%;
+    padding:5px 0px 0px 5px;
+}
+
+.talk9 {
+    background-color: yellow;
+    color: rgb(97, 97, 37);
+    grid-area: 2 / 7 / 8 / 9;
+    padding:15px 0px 0px 15px;
+}
+
+.talk10 {
+    background-color: yellow;
+    color: rgb(97, 97, 37);
+    grid-area: 9 / 7 / 12 / 9;
+    padding:15px 0px 0px 15px;
+}
+
+.break1 {
+    background-color: grey;
+    grid-area: 3 / 5 / 4 / 7;
+    text-align: center;
+}
+
+.break2 {
+    background-color: grey;
+    grid-area: 5 / 2 / 6 / 4;
+    text-align: center;
+}
+
+.break3 {
+    background-color: grey;
+    grid-area: 8 / 2 / 9 / 9;
+    text-align: center;
+}
